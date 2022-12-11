@@ -1,10 +1,10 @@
-package com.booking.PaymentOnline;
+package com.hotel.payment;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PaymentOnlineApplicationTests {
+class PaymentApplicationTests {
 
 	@Test
 	void contextLoads() {
