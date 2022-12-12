@@ -27,7 +27,7 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers("/users*")
+                .antMatchers("/pay*","/h2-console*","/users*")
                 .hasRole("USER")
                 .anyRequest()
                 .permitAll();
